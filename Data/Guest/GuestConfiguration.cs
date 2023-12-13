@@ -3,7 +3,7 @@ using Domain.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace Data
+namespace Data.Guest
 {
     public class GuestConfiguration : IEntityTypeConfiguration<Guest>
     {
